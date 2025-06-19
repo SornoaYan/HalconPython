@@ -1,0 +1,23 @@
+version = 1
+revision = 2
+requires-python = ">=3.11"
+
+[[package]]
+name = "halcon"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "mvtec-halcon" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "mvtec-halcon", specifier = ">=25050.0.0" }]
+
+[[package]]
+name = "mvtec-halcon"
+version = "25050.0.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/f0/c7/2a4f271a36a316bb9818245760607d66045ac4e196c738d7bc5f7191629b/mvtec_halcon-25050.0.0.tar.gz", hash = "sha256:0c64307b5b91ed0e81041ed602cb9d6ab0bce9e6de6d1e5421b872b2e9907d65", size = 496113, upload_time = "2025-05-26T10:08:44.364Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/7a/37/69adc0225f94052537191a539b3b3246337e1238c0f9504d0c7453b7c27c/mvtec_halcon-25050.0.0-py3-none-any.whl", hash = "sha256:4278201240712934bdc7defe6ee8ef6795eb8294c54e9e721f80de2344bd36a8", size = 506014, upload_time = "2025-05-26T10:09:12.281Z" },
+]
