@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: mvtec-halcon
+Version: 25050.0.0
+Summary: Native Python language bindings for MVTec HALCON.
+Project-URL: Product Page, https://www.mvtec.com/products/halcon
+Project-URL: Documentation, https://www.mvtec.com/products/halcon/work-with-halcon/documentation
+Author-email: MVTec Software GmbH <info@mvtec.com>
+License-File: eula.html
+Keywords: HALCON,MVTec,image,processing
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# HALCON/Python
+
+HALCON/Python is a set of native Python language bindings for HALCON.
+This includes interfaces for operators, HDevEngine and interoperability
+for third-party libraries like NumPy.
+
+The major design goals for HALCON/Python are simplicity and rapid prototyping.
+
+NOTE: A native installation of HALCON is required in addition to this package.
+This package only contains the Python bindings.
+
+### Platform Independence
+
+HALCON/Python is officially supported on all Tier 1 platforms supported by
+CPython, the reference implementation of the Python programming language. That
+is x64-win64, x64-linux. That said, it is possible that other platforms and
+alternative Python implementations are functional, of course native HALCON
+binaries also need to be available on that platform.
